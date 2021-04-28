@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", 'sans-sarif'; }
+
+.hero {
+  display: flex; }
+  .hero .hero__content {
+    background-color: #FFC625;
+    width: 50%;
+    min-height: 681px;
+    padding-left: 375px; }
+    .hero .hero__content--title {
+      font-size: 60px;
+      font-weight: 400;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 83px;
+      max-width: 415px; }
+    .hero .hero__content--paragraph {
+      font-size: 14px;
+      color: #091E2B;
+      letter-spacing: 0;
+      text-align: left;
+      line-height: 25px;
+      max-width: 545px; }
+  .hero .hero__img {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .hero .btn {
+    display: inline-block;
+    background-color: #6C7DE3;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 53px;
+    min-width: 347px;
+    min-height: 53px;
+    text-align: center;
+    margin-top: 92px; }
+
+.case-study {
+  max-width: 1178px;
+  margin: 0 auto; }
+  .case-study__title {
+    font-size: 60px;
+    color: #231F20;
+    letter-spacing: 0;
+    line-height: 83px;
+    font-weight: 600; }
+    .case-study__title:after {
+      content: '';
+      display: block;
+      background: #FFC625;
+      width: 39px;
+      height: 39px;
+      border-radius: 50%;
+      margin: 30px 0 0 0; }
+  .case-study__boxes {
+    display: flex;
+    padding: 76px 0 101px 0;
+    position: relative; }
+    .case-study__boxes img {
+      align-self: flex-start;
+      width: 64px;
+      height: 64px;
+      position: absolute;
+      right: 20px;
+      top: 0; }
+    .case-study__boxes h3 {
+      font-size: 36px;
+      color: #231F20;
+      letter-spacing: 0;
+      font-weight: 400;
+      margin: 0;
+      padding: 24px 0 0 67px; }
+    .case-study__boxes p {
+      max-width: 476px;
+      padding: 0 0 0 99px; }
+    .case-study__boxes--first {
+      background-image: url("./../img/head_2.svg");
+      background-repeat: no-repeat; }
+    .case-study__boxes--second {
+      background-image: url("./../img/head_1.svg");
+      background-repeat: no-repeat; }
+
+.footer-site {
+  max-width: 1178px;
+  margin: 0 auto; }
+  .footer-site p {
+    font-size: 14px;
+    color: #7E7E7E;
+    letter-spacing: 0;
+    text-align: left; }
